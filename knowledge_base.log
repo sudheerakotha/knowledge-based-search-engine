@@ -1,0 +1,200 @@
+2025-10-15 11:51:43,724 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-15 11:53:09,440 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 11:53:09,440 - vector_store - INFO - Initializing vector store...
+2025-10-15 11:53:09,807 - vector_store - INFO - Loading embedding model...
+2025-10-15 11:53:09,808 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 11:53:09,808 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 11:53:13,106 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-15 11:54:32,002 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 11:54:32,002 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:01:33,035 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:01:33,035 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:01:33,276 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:01:33,285 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:01:33,285 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:01:37,314 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:01:37,314 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:09:26,516 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:09:26,524 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:09:26,533 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:09:26,683 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:09:26,683 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:09:26,683 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:09:27,693 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:09:27,693 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:09:27,694 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:09:27,727 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:09:27,727 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:09:27,727 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:12:08,002 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:12:08,004 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:12:08,004 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:12:08,049 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:12:08,049 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:12:08,049 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:12:10,695 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:12:10,696 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:12:10,696 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:12:10,732 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:12:10,732 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:12:10,741 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:16:44,759 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:16:44,775 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:16:44,975 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:16:44,977 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:16:44,977 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:16:49,010 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:16:49,010 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:17:52,733 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:17:52,733 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:17:52,854 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:17:52,857 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:17:52,857 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:17:56,784 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:17:56,784 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:18:27,822 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:18:27,822 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:18:27,824 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:18:27,864 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:18:27,864 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:18:27,866 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:18:29,479 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:18:29,479 - __main__ - INFO - Processing file: syllabus_ml.docx
+2025-10-15 12:18:29,481 - document_processor - INFO - Processing document: uploads/syllabus_ml.docx
+2025-10-15 12:18:29,500 - document_processor - WARNING - No text extracted from uploads/syllabus_ml.docx
+2025-10-15 12:18:29,500 - __main__ - WARNING - No chunks extracted from syllabus_ml.docx
+2025-10-15 12:18:29,500 - __main__ - INFO - Upload completed: 0 files, 0 chunks
+2025-10-15 12:18:57,581 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:18:57,581 - __main__ - INFO - Processing file: 2 Intro to ML.pdf
+2025-10-15 12:18:57,584 - document_processor - INFO - Processing document: uploads/2 Intro to ML.pdf
+2025-10-15 12:18:59,302 - document_processor - INFO - Processed uploads/2 Intro to ML.pdf: 5 chunks, 17831 characters
+2025-10-15 12:18:59,302 - __main__ - ERROR - Error processing file 2 Intro to ML.pdf: Expected metadata value to be a str, int, float, bool, SparseVector, or None, got ['Emails', 'Falling', 'Insurance', 'Classification', 'Current', 'With', 'Successful', 'Areas', 'Set', 'Decision'] which is a list in add.
+2025-10-15 12:21:54,208 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:21:54,208 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:21:54,332 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:21:54,333 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:21:54,333 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:21:57,937 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:21:57,937 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:22:56,951 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:22:56,951 - __main__ - INFO - Processing file: 12 Principal Regression .pdf
+2025-10-15 12:22:56,951 - document_processor - INFO - Processing document: uploads/12 Principal Regression .pdf
+2025-10-15 12:22:57,186 - document_processor - INFO - Processed uploads/12 Principal Regression .pdf: 2 chunks, 6431 characters
+2025-10-15 12:22:58,749 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-10-15 12:25:29,475 - __main__ - INFO - Successfully processed 12 Principal Regression .pdf with 2 chunks
+2025-10-15 12:25:29,476 - __main__ - INFO - Upload completed: 1 files, 2 chunks
+2025-10-15 12:25:32,400 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:25:32,401 - __main__ - INFO - Processing file: 12 Principal Regression .pdf
+2025-10-15 12:25:32,402 - document_processor - INFO - Processing document: uploads/12 Principal Regression .pdf
+2025-10-15 12:25:32,803 - document_processor - INFO - Processed uploads/12 Principal Regression .pdf: 2 chunks, 6431 characters
+2025-10-15 12:25:33,196 - __main__ - INFO - Successfully processed 12 Principal Regression .pdf with 2 chunks
+2025-10-15 12:25:33,197 - __main__ - INFO - Upload completed: 1 files, 2 chunks
+2025-10-15 12:25:47,000 - __main__ - INFO - Processing query: string...
+2025-10-15 12:25:47,000 - vector_store - INFO - Searching for: string... with filters: {'additionalProp1': {}}
+2025-10-15 12:25:47,000 - vector_store - ERROR - Error searching documents: Expected where to have exactly one operator, got {} in query.
+2025-10-15 12:25:47,001 - __main__ - ERROR - Error processing query: Expected where to have exactly one operator, got {} in query.
+2025-10-15 12:25:49,213 - __main__ - INFO - Processing query: string...
+2025-10-15 12:25:49,213 - vector_store - INFO - Searching for: string... with filters: {'additionalProp1': {}}
+2025-10-15 12:25:49,213 - vector_store - ERROR - Error searching documents: Expected where to have exactly one operator, got {} in query.
+2025-10-15 12:25:49,214 - __main__ - ERROR - Error processing query: Expected where to have exactly one operator, got {} in query.
+2025-10-15 12:33:28,201 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:33:28,203 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:33:28,333 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:33:28,336 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:33:28,338 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:33:32,156 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:33:32,156 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:34:09,904 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:34:09,904 - __main__ - INFO - Processing file: 9 Linear Regression.pdf
+2025-10-15 12:34:09,905 - document_processor - INFO - Processing document: uploads/9 Linear Regression.pdf
+2025-10-15 12:34:10,418 - document_processor - INFO - Processed uploads/9 Linear Regression.pdf: 2 chunks, 6817 characters
+2025-10-15 12:34:10,940 - __main__ - INFO - Successfully processed 9 Linear Regression.pdf with 2 chunks
+2025-10-15 12:34:10,941 - __main__ - INFO - Upload completed: 1 files, 2 chunks
+2025-10-15 12:34:58,576 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:34:58,578 - __main__ - INFO - Processing file: 3 Probability theory.pdf
+2025-10-15 12:34:58,580 - document_processor - INFO - Processing document: uploads/3 Probability theory.pdf
+2025-10-15 12:35:00,167 - document_processor - INFO - Processed uploads/3 Probability theory.pdf: 6 chunks, 19047 characters
+2025-10-15 12:35:00,832 - __main__ - INFO - Successfully processed 3 Probability theory.pdf with 6 chunks
+2025-10-15 12:35:00,833 - __main__ - INFO - Upload completed: 1 files, 6 chunks
+2025-10-15 12:35:22,957 - __main__ - INFO - Processing query: string...
+2025-10-15 12:35:22,957 - vector_store - INFO - Searching for: string... with filters: {'additionalProp1': {}}
+2025-10-15 12:35:23,289 - vector_store - INFO - Found 5 results
+2025-10-15 12:35:23,289 - __main__ - INFO - Found 5 relevant documents
+2025-10-15 12:35:23,289 - rag_engine - INFO - Generating answer for query: string...
+2025-10-15 12:35:23,289 - rag_engine - WARNING - No documents meet similarity threshold
+2025-10-15 12:35:23,289 - __main__ - INFO - Generated answer with confidence: 0.0
+2025-10-15 12:35:48,785 - __main__ - INFO - Processing query: What is Principal Component Regression?...
+2025-10-15 12:35:48,785 - vector_store - INFO - Searching for: What is Principal Component Regression?... with filters: None
+2025-10-15 12:35:49,123 - vector_store - INFO - Found 5 results
+2025-10-15 12:35:49,123 - __main__ - INFO - Found 5 relevant documents
+2025-10-15 12:35:49,123 - rag_engine - INFO - Generating answer for query: What is Principal Component Regression?...
+2025-10-15 12:35:50,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:50,726 - openai._base_client - INFO - Retrying request to /chat/completions in 0.482393 seconds
+2025-10-15 12:35:53,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:53,295 - openai._base_client - INFO - Retrying request to /chat/completions in 0.895915 seconds
+2025-10-15 12:35:55,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:55,082 - rag_engine - WARNING - Query expansion failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 12:35:57,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:57,115 - openai._base_client - INFO - Retrying request to /chat/completions in 0.378633 seconds
+2025-10-15 12:35:57,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:57,838 - openai._base_client - INFO - Retrying request to /chat/completions in 0.961324 seconds
+2025-10-15 12:35:59,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:35:59,114 - rag_engine - ERROR - Error generating answer: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 12:35:59,115 - __main__ - INFO - Generated answer with confidence: 0.0
+2025-10-15 12:36:24,793 - __main__ - INFO - Processing query: What is Probability?...
+2025-10-15 12:36:24,793 - vector_store - INFO - Searching for: What is Probability?... with filters: None
+2025-10-15 12:36:25,138 - vector_store - INFO - Found 5 results
+2025-10-15 12:36:25,138 - __main__ - INFO - Found 5 relevant documents
+2025-10-15 12:36:25,138 - rag_engine - INFO - Generating answer for query: What is Probability?...
+2025-10-15 12:36:25,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:25,750 - openai._base_client - INFO - Retrying request to /chat/completions in 0.490072 seconds
+2025-10-15 12:36:26,558 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:26,558 - openai._base_client - INFO - Retrying request to /chat/completions in 0.752806 seconds
+2025-10-15 12:36:27,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:27,610 - rag_engine - WARNING - Query expansion failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 12:36:27,927 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:27,927 - openai._base_client - INFO - Retrying request to /chat/completions in 0.413201 seconds
+2025-10-15 12:36:29,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:29,290 - openai._base_client - INFO - Retrying request to /chat/completions in 0.765879 seconds
+2025-10-15 12:36:30,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-15 12:36:30,914 - rag_engine - ERROR - Error generating answer: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 12:36:30,915 - __main__ - INFO - Generated answer with confidence: 0.0
+2025-10-15 12:44:32,281 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 12:44:32,281 - vector_store - INFO - Initializing vector store...
+2025-10-15 12:44:32,410 - vector_store - INFO - Loading embedding model...
+2025-10-15 12:44:32,412 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 12:44:32,412 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 12:44:36,228 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 12:44:36,228 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 12:46:04,460 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 12:46:04,460 - __main__ - INFO - Processing file: 3 Probability theory.pdf
+2025-10-15 12:46:04,461 - document_processor - INFO - Processing document: uploads/3 Probability theory.pdf
+2025-10-15 12:46:06,271 - document_processor - INFO - Processed uploads/3 Probability theory.pdf: 6 chunks, 19047 characters
+2025-10-15 12:46:06,983 - __main__ - INFO - Successfully processed 3 Probability theory.pdf with 6 chunks
+2025-10-15 12:46:06,983 - __main__ - INFO - Upload completed: 1 files, 6 chunks
+2025-10-15 12:46:50,089 - __main__ - INFO - Processing query: Explain probability theory from the document...
+2025-10-15 12:46:50,089 - vector_store - INFO - Searching for: Explain probability theory from the document... with filters: {'additionalProp1': {}}
+2025-10-15 12:46:50,446 - vector_store - INFO - Found 5 results
+2025-10-15 12:46:50,446 - __main__ - INFO - Found 5 relevant documents
+2025-10-15 12:46:50,446 - rag_engine - INFO - Generating answer for query: Explain probability theory from the document...
+2025-10-15 12:46:52,962 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 12:46:54,477 - rag_engine - INFO - Query expanded: Explain probability theory from the document -> Here's an expanded version of the search query with related terms and synonyms:
+
+**Original query:** Explain probability theory from the document
+
+**Expanded query:**
+
+1. **Probability theory basics from a document**
+2. **Explanation of probability theory concepts**
+3. **Understanding probability theory principles from a text**
+4. **Document-based introduction to probability theory**
+5. **Probability theory explained in a written resource**
+6. **Theoretical foundations of probability from a document**
+7. **Probability theory concepts
+2025-10-15 12:46:56,080 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 12:47:01,414 - rag_engine - INFO - Generated answer with confidence: 0.53
+2025-10-15 12:47:01,414 - __main__ - INFO - Generated answer with confidence: 0.53
