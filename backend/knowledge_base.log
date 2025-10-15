@@ -1,0 +1,507 @@
+2025-10-15 15:16:06,167 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 15:16:06,168 - vector_store - INFO - Initializing vector store...
+2025-10-15 15:16:06,508 - vector_store - INFO - Loading embedding model...
+2025-10-15 15:16:06,508 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-15 15:16:06,508 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 15:16:10,762 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 15:16:10,763 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 15:53:56,643 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-15 15:54:21,755 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 15:54:21,755 - vector_store - INFO - Initializing vector store...
+2025-10-15 15:54:22,167 - vector_store - INFO - Loading embedding model...
+2025-10-15 15:54:22,181 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-15 15:54:22,181 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 15:54:26,312 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 15:54:26,312 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 16:13:34,281 - __main__ - INFO - Starting upload of 1 files
+2025-10-15 16:13:34,281 - __main__ - INFO - Processing file: 2 Ohm's Law and Req.pdf
+2025-10-15 16:13:34,284 - document_processor - INFO - Processing document: uploads/2 Ohm's Law and Req.pdf
+2025-10-15 16:13:34,397 - document_processor - INFO - Processed uploads/2 Ohm's Law and Req.pdf: 2 chunks, 4724 characters
+2025-10-15 16:13:35,775 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-10-15 16:14:16,825 - __main__ - INFO - Successfully processed 2 Ohm's Law and Req.pdf with 2 chunks
+2025-10-15 16:14:16,825 - __main__ - INFO - Upload completed: 1 files, 2 chunks
+2025-10-15 16:14:28,592 - __main__ - INFO - Processing query: what is ohm's law?...
+2025-10-15 16:14:28,593 - vector_store - INFO - Searching for: what is ohm's law?... with filters: None
+2025-10-15 16:14:28,744 - vector_store - INFO - Found 2 results
+2025-10-15 16:14:28,744 - __main__ - INFO - Found 2 relevant documents
+2025-10-15 16:14:28,744 - rag_engine - INFO - Generating answer for query: what is ohm's law?...
+2025-10-15 16:14:28,744 - rag_engine - WARNING - No documents meet similarity threshold
+2025-10-15 16:14:28,744 - __main__ - INFO - Generated answer with confidence: 0.0
+2025-10-15 16:15:20,852 - __main__ - INFO - Processing query: what is a circuit?...
+2025-10-15 16:15:20,853 - vector_store - INFO - Searching for: what is a circuit?... with filters: None
+2025-10-15 16:15:21,005 - vector_store - INFO - Found 2 results
+2025-10-15 16:15:21,006 - __main__ - INFO - Found 2 relevant documents
+2025-10-15 16:15:21,006 - rag_engine - INFO - Generating answer for query: what is a circuit?...
+2025-10-15 16:15:22,261 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:15:24,498 - rag_engine - INFO - Query expanded: what is a circuit? -> Here's an expanded version of the search query with related terms and synonyms:
+
+"what is a circuit? circuit definition, electrical circuit, electronic circuit, circuit diagram, circuit breaker, circuit board, circuit theory, circuit analysis, circuit design, circuit simulation, circuit testing, circuit troubleshooting, closed circuit, open circuit, series circuit, parallel circuit, AC circuit, DC circuit, analog circuit, digital circuit, control circuit, power circuit, communication circuit, data circuit, signal circuit, feedback circuit, feedback
+2025-10-15 16:15:25,604 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:15:27,108 - rag_engine - INFO - Generated answer with confidence: 0.46
+2025-10-15 16:15:27,109 - __main__ - INFO - Generated answer with confidence: 0.46
+2025-10-15 16:17:54,750 - __main__ - INFO - Starting upload of 3 files
+2025-10-15 16:17:54,750 - __main__ - INFO - Processing file: 2 Ohm's Law and Req.pdf
+2025-10-15 16:17:54,753 - document_processor - INFO - Processing document: uploads/2 Ohm's Law and Req.pdf
+2025-10-15 16:17:54,861 - document_processor - INFO - Processed uploads/2 Ohm's Law and Req.pdf: 2 chunks, 4724 characters
+2025-10-15 16:17:55,029 - __main__ - INFO - Successfully processed 2 Ohm's Law and Req.pdf with 2 chunks
+2025-10-15 16:17:55,029 - __main__ - INFO - Processing file: 3 Resistance Conversions.pdf
+2025-10-15 16:17:55,030 - document_processor - INFO - Processing document: uploads/3 Resistance Conversions.pdf
+2025-10-15 16:17:55,102 - document_processor - INFO - Processed uploads/3 Resistance Conversions.pdf: 1 chunks, 2210 characters
+2025-10-15 16:17:55,198 - __main__ - INFO - Successfully processed 3 Resistance Conversions.pdf with 1 chunks
+2025-10-15 16:17:55,198 - __main__ - INFO - Processing file: 4 Numericals on Conversions.pdf
+2025-10-15 16:17:55,199 - document_processor - INFO - Processing document: uploads/4 Numericals on Conversions.pdf
+2025-10-15 16:17:55,271 - document_processor - INFO - Processed uploads/4 Numericals on Conversions.pdf: 1 chunks, 1106 characters
+2025-10-15 16:17:55,374 - __main__ - INFO - Successfully processed 4 Numericals on Conversions.pdf with 1 chunks
+2025-10-15 16:17:55,374 - __main__ - INFO - Upload completed: 3 files, 4 chunks
+2025-10-15 17:10:56,886 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 17:10:56,887 - vector_store - INFO - Initializing vector store...
+2025-10-15 17:10:56,931 - vector_store - INFO - Loading embedding model...
+2025-10-15 17:10:56,943 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-15 17:10:56,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 17:10:58,250 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 0122ea17-ea72-4fa2-9cad-388712ad5e57)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:10:58,250 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-15 17:10:59,508 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 5ac46c40-5f42-4dc4-9010-7c026385cd13)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:10:59,509 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-15 17:11:02,069 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 13fc45cf-a993-450d-956b-6ca72e859611)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:11:02,069 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-15 17:11:06,123 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: a8804d0c-2834-48c5-a257-966b9eca8ce2)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:11:06,123 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-15 17:11:14,244 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: e88a6f7a-50c1-4874-9758-b0efa1075cd8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:11:14,244 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-15 17:11:23,154 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 2ab86a7f-debd-4602-9ab5-27931aa73cf2)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-15 17:11:23,154 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2025-10-15 17:11:25,851 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: ed095b53-0f3e-4db8-a74b-0598396df27b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:25,852 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-15 17:11:29,774 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 2660e88c-e624-4c07-8bb9-eac624600ca0)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:29,775 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-15 17:11:32,737 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 3e6e6cf1-2c2d-41e2-a149-a310aee3de3e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:32,737 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-15 17:11:38,147 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 45c00735-28a8-4380-9c5e-e516a8552cb5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:38,147 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-15 17:11:46,195 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 36a27323-7494-43cf-9122-7dec3cbc3710)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:46,196 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-15 17:11:57,944 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: a0bd052a-6f4c-4f00-99bd-7a8dd32df508)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-10-15 17:11:57,945 - vector_store - ERROR - Error initializing vector store: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: a0bd052a-6f4c-4f00-99bd-7a8dd32df508)')
+2025-10-15 17:11:57,945 - __main__ - ERROR - Failed to initialize vector store: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: a0bd052a-6f4c-4f00-99bd-7a8dd32df508)')
+2025-10-15 17:14:57,605 - __main__ - INFO - Starting Knowledge Base Search Engine...
+2025-10-15 17:14:57,605 - vector_store - INFO - Initializing vector store...
+2025-10-15 17:14:57,635 - vector_store - INFO - Loading embedding model...
+2025-10-15 17:14:57,646 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-15 17:14:57,646 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 17:15:05,676 - vector_store - INFO - Vector store initialized successfully
+2025-10-15 17:15:05,676 - __main__ - INFO - Vector store initialized successfully
+2025-10-15 17:16:56,492 - __main__ - INFO - Starting upload of 2 files
+2025-10-15 17:16:56,493 - __main__ - INFO - Processing file: 7 KVL.pdf
+2025-10-15 17:16:56,494 - document_processor - INFO - Processing document: uploads/7 KVL.pdf
+2025-10-15 17:16:56,697 - document_processor - INFO - Processed uploads/7 KVL.pdf: 1 chunks, 3996 characters
+2025-10-15 17:16:56,856 - __main__ - INFO - Successfully processed 7 KVL.pdf with 1 chunks
+2025-10-15 17:16:56,856 - __main__ - INFO - Processing file: 6 KCL.pdf
+2025-10-15 17:16:56,857 - document_processor - INFO - Processing document: uploads/6 KCL.pdf
+2025-10-15 17:16:57,022 - document_processor - INFO - Processed uploads/6 KCL.pdf: 1 chunks, 2388 characters
+2025-10-15 17:16:57,100 - __main__ - INFO - Successfully processed 6 KCL.pdf with 1 chunks
+2025-10-15 17:16:57,100 - __main__ - INFO - Upload completed: 2 files, 2 chunks
+2025-10-15 17:17:22,633 - __main__ - INFO - Processing query: based on the document what is kcl...
+2025-10-15 17:17:22,634 - vector_store - INFO - Searching for: based on the document what is kcl... with filters: None
+2025-10-15 17:17:22,761 - vector_store - INFO - Found 2 results
+2025-10-15 17:17:22,761 - __main__ - INFO - Found 2 relevant documents
+2025-10-15 17:17:22,761 - rag_engine - INFO - Generating answer for query: based on the document what is kcl...
+2025-10-15 17:17:25,369 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 17:17:26,805 - rag_engine - INFO - Query expanded: based on the document what is kcl -> Here's an expanded version of the search query with related terms and synonyms:
+
+"based on the document what is potassium chloride (KCl) or potassium chloride compound or potassium chloride definition or meaning of KCl or potassium chloride explanation or potassium chloride information or potassium chloride summary or potassium chloride details or potassium chloride description or potassium chloride properties or potassium chloride characteristics or potassium chloride uses or potassium chloride applications or potassium chloride benefits or potassium chloride functions or potassium chloride effects or potassium chloride implications or potassium chloride significance or potassium chloride
+2025-10-15 17:17:27,999 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 17:17:30,047 - rag_engine - INFO - Generated answer with confidence: 0.49
+2025-10-15 17:17:30,048 - __main__ - INFO - Generated answer with confidence: 0.49
+2025-10-15 17:17:56,112 - __main__ - INFO - Processing query: based on the document what is KCL...
+2025-10-15 17:17:56,114 - vector_store - INFO - Searching for: based on the document what is KCL... with filters: None
+2025-10-15 17:17:56,240 - vector_store - INFO - Found 2 results
+2025-10-15 17:17:56,240 - __main__ - INFO - Found 2 relevant documents
+2025-10-15 17:17:56,241 - rag_engine - INFO - Generating answer for query: based on the document what is KCL...
+2025-10-15 17:17:58,565 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 17:18:00,498 - rag_engine - INFO - Query expanded: based on the document what is KCL -> Here's an expanded version of the search query with related terms and synonyms:
+
+`(based on the document) (what is) (KCL OR potassium chloride OR potassium chloride solution OR potassium chlorid OR potassium chlorides OR KCl OR potassium chloride compound OR potassium chloride medication OR potassium chloride treatment)`
+
+This expanded query includes:
+
+* Related terms:
+	+ Potassium chloride
+	+ Potassium chloride solution
+	+ Potassium chlorid
+	+ Potassium chlorides
+	+ KCl
+2025-10-15 17:18:01,152 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 17:18:04,011 - rag_engine - INFO - Generated answer with confidence: 0.49
+2025-10-15 17:18:04,011 - __main__ - INFO - Generated answer with confidence: 0.49
+2025-10-15 18:17:56,272 - INFO - Using OpenRouter (LLaMA 3-8B Instruct)
+2025-10-15 18:17:56,313 - INFO - 🚀 Starting Knowledge Base Search Engine...
+2025-10-15 18:17:56,314 - INFO - Initializing vector store...
+2025-10-15 18:17:56,379 - INFO - Loading embedding model...
+2025-10-15 18:17:56,391 - INFO - Use pytorch device_name: mps
+2025-10-15 18:17:56,392 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 18:18:07,138 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:18:07,138 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:18:38,276 - INFO - 🗑️ Deleted 1 chunks from 7 KVL.pdf
+2025-10-15 18:18:38,828 - INFO - 🗑️ Deleted 1 chunks from 6 KCL.pdf
+2025-10-15 18:19:02,353 - INFO - Processing document: uploads/Module-1.pdf
+2025-10-15 18:19:02,520 - INFO - Processed uploads/Module-1.pdf: 8 chunks, 32977 characters
+2025-10-15 18:19:02,866 - INFO - ✅ Added 8 chunks from Module-1.pdf
+2025-10-15 18:20:09,581 - INFO - 🔍 Searching for: 'what is the nature of the software' ... with filters: None
+2025-10-15 18:20:09,717 - INFO - Found 5 relevant results
+2025-10-15 18:20:09,717 - INFO - 🧠 Generating answer for query: what is the nature of the software
+2025-10-15 18:20:12,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:20:14,051 - INFO - 🔍 Query expanded: what is the nature of the software → Here are a few related terms and synonyms for the query "what is the nature of the software":
+
+* Related terms:
+	+ Software characteristics
+	+ Software properties
+	+ Software type
+	+ Software classification
+* Synonyms:
+	+ Essence
+	+ Definition
+	+ Description
+	+ Attributes
+2025-10-15 18:20:16,121 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:20:19,177 - INFO - ✅ Answer generated with confidence: 0.63
+2025-10-15 18:20:20,805 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:20:20,808 - INFO - Query processed: retrieval=0.508, synthesis=0.8, confidence=0.63
+2025-10-15 18:20:50,218 - INFO - 🔍 Searching for: 'what is the nature of the software' ... with filters: None
+2025-10-15 18:20:50,349 - INFO - Found 5 relevant results
+2025-10-15 18:20:50,349 - INFO - 🧠 Generating answer for query: what is the nature of the software
+2025-10-15 18:20:52,666 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:20:53,943 - INFO - 🔍 Query expanded: what is the nature of the software → Here are a few related terms and synonyms for the query "what is the nature of the software":
+
+* Related terms:
+	+ Characteristics
+	+ Functionality
+	+ Architecture
+	+ Design
+	+ Features
+* Synonyms:
+	+ Essence
+	+ Properties
+	+ Attributes
+	+ Qualities
+	+ Composition
+2025-10-15 18:20:58,004 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:20:59,828 - INFO - ✅ Answer generated with confidence: 0.69
+2025-10-15 18:21:01,710 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:21:01,790 - INFO - Query processed: retrieval=0.508, synthesis=0.8, confidence=0.69
+2025-10-15 18:22:58,477 - INFO - Using OpenRouter (LLaMA 3-8B Instruct)
+2025-10-15 18:22:58,511 - INFO - 🚀 Starting Knowledge Base Search Engine...
+2025-10-15 18:22:58,511 - INFO - Initializing vector store...
+2025-10-15 18:22:58,543 - INFO - Loading embedding model...
+2025-10-15 18:22:58,554 - INFO - Use pytorch device_name: mps
+2025-10-15 18:22:58,554 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 18:23:05,182 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:23:05,182 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:24:13,098 - INFO - 🔍 Searching for: 'what is the nature of the software' ... with filters: None
+2025-10-15 18:24:13,316 - INFO - Found 5 relevant results
+2025-10-15 18:24:13,317 - INFO - 🧠 Generating answer for query: what is the nature of the software
+2025-10-15 18:24:15,616 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:24:17,408 - INFO - 🔍 Query expanded: what is the nature of the software → Here are a few related terms and synonyms:
+
+* Software characteristics
+* Software properties
+* Software essence
+* Software attributes
+* Software features
+* Software architecture
+* Software design
+* Software functionality
+
+Note: These terms can be used to improve search coverage by adding them to the original query. For example: "what is the nature of the software characteristics" or "what is the essence of
+2025-10-15 18:24:18,772 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:24:25,528 - INFO - ✅ Answer generated with confidence: 0.69
+2025-10-15 18:24:27,360 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:24:27,377 - INFO - Query processed: retrieval=0.508, synthesis=0.8, confidence=0.69
+2025-10-15 18:38:11,033 - INFO - Using OpenRouter (LLaMA 3-8B Instruct)
+2025-10-15 18:38:11,091 - INFO - 🚀 Starting Knowledge Base Search Engine...
+2025-10-15 18:38:11,091 - INFO - Initializing vector store...
+2025-10-15 18:38:11,168 - INFO - Loading embedding model...
+2025-10-15 18:38:11,180 - INFO - Use pytorch device_name: mps
+2025-10-15 18:38:11,180 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 18:38:16,410 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:38:16,410 - INFO - ✅ Vector store initialized successfully
+2025-10-15 18:38:43,594 - INFO - 🗑️ Deleted 8 chunks from Module-1.pdf
+2025-10-15 18:38:49,773 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 18:38:49,786 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 18:38:49,993 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 18:39:03,526 - INFO - 🔍 Searching for: 'what is machine learning' ... with filters: None
+2025-10-15 18:39:03,647 - INFO - Found 1 relevant results
+2025-10-15 18:39:03,647 - INFO - 🧠 Generating answer for query: what is machine learning
+2025-10-15 18:39:06,053 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:39:06,663 - INFO - 🔍 Query expanded: what is machine learning → Here are a few related terms and synonyms for "what is machine learning":
+
+* Artificial Intelligence (AI)
+* Deep Learning
+* Neural Networks
+* Predictive Analytics
+* Data Science
+* Pattern Recognition
+* Algorithmic Learning
+* Automated Intelligence
+2025-10-15 18:39:07,917 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:39:09,615 - INFO - ✅ Answer generated with confidence: 0.82
+2025-10-15 18:39:11,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:39:11,589 - INFO - Query processed: retrieval=0.749, synthesis=0.8, confidence=0.82
+2025-10-15 18:40:59,196 - INFO - Processing document: uploads/LLMs.pdf
+2025-10-15 18:40:59,688 - INFO - Processed uploads/LLMs.pdf: 96 chunks, 273100 characters
+2025-10-15 18:41:02,079 - INFO - ✅ Added 96 chunks from LLMs.pdf
+2025-10-15 18:41:10,968 - INFO - 🔍 Searching for: 'what is prompt tuning' ... with filters: None
+2025-10-15 18:41:11,090 - INFO - Found 5 relevant results
+2025-10-15 18:41:11,091 - INFO - 🧠 Generating answer for query: what is prompt tuning
+2025-10-15 18:41:12,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:41:14,847 - INFO - 🔍 Query expanded: what is prompt tuning → Here are a few related terms and synonyms for the query "what is prompt tuning":
+
+* Related terms:
+	+ Language model fine-tuning
+	+ Prompt engineering
+	+ AI model optimization
+	+ Natural language processing (NLP) tuning
+* Synonyms:
+	+ Prompt optimization
+	+ Model prompting
+	+ Language model adaptation
+	+ AI model fine-tuning
+2025-10-15 18:41:16,674 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:41:23,734 - INFO - ✅ Answer generated with confidence: 0.59
+2025-10-15 18:41:24,565 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:41:24,750 - INFO - Query processed: retrieval=0.395, synthesis=0.8, confidence=0.59
+2025-10-15 18:42:03,053 - INFO - 🔍 Searching for: 'What is LLM?' ... with filters: None
+2025-10-15 18:42:03,180 - INFO - Found 5 relevant results
+2025-10-15 18:42:03,180 - INFO - 🧠 Generating answer for query: What is LLM?
+2025-10-15 18:42:05,533 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:42:06,252 - INFO - 🔍 Query expanded: What is LLM? → Here are a few related terms and synonyms for "What is LLM?":
+
+* Large Language Model
+* AI Model
+* NLP Model
+* Deep Learning Model
+* Language Generation Model
+* AI Assistant
+* Chatbot Model
+* Natural Language Processing (NLP) Model
+* Artificial Intelligence (AI) Model
+2025-10-15 18:42:07,491 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:42:21,537 - INFO - ✅ Answer generated with confidence: 0.61
+2025-10-15 18:42:23,426 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:42:23,444 - INFO - Query processed: retrieval=0.43, synthesis=0.8, confidence=0.61
+2025-10-15 18:51:17,439 - INFO - Processing document: uploads/ML Research Paper.pdf
+2025-10-15 18:51:17,581 - INFO - Processed uploads/ML Research Paper.pdf: 13 chunks, 40916 characters
+2025-10-15 18:51:18,018 - INFO - ✅ Added 13 chunks from ML Research Paper.pdf
+2025-10-15 18:51:34,013 - INFO - 🔍 Searching for: 'what is machine learning' ... with filters: None
+2025-10-15 18:51:34,131 - INFO - Found 5 relevant results
+2025-10-15 18:51:34,131 - INFO - 🧠 Generating answer for query: what is machine learning
+2025-10-15 18:51:37,600 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:51:39,398 - INFO - 🔍 Query expanded: what is machine learning → Here are a few related terms and synonyms for the query "what is machine learning":
+
+* Related terms:
+	+ Artificial intelligence
+	+ Deep learning
+	+ Neural networks
+	+ Data science
+* Synonyms:
+	+ ML
+	+ AI
+	+ Intelligent systems
+	+ Pattern recognition
+
+Note that these terms and synonyms are not exhaustive, but they can help improve search coverage
+2025-10-15 18:51:41,614 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:51:46,774 - INFO - ✅ Answer generated with confidence: 0.75
+2025-10-15 18:51:49,070 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:51:49,073 - INFO - Query processed: retrieval=0.585, synthesis=0.8, confidence=0.75
+2025-10-15 19:06:32,263 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 19:06:32,272 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 19:06:32,387 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 19:07:09,905 - INFO - 🔍 Searching for: 'what is machine learning' ... with filters: {}
+2025-10-15 19:07:10,022 - INFO - Found 2 relevant results
+2025-10-15 19:07:10,022 - INFO - 🧠 Generating answer for query: what is machine learning
+2025-10-15 19:07:13,221 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 19:07:13,928 - INFO - 🔍 Query expanded: what is machine learning → Here are a few related terms and synonyms for "what is machine learning":
+
+* Artificial intelligence (AI)
+* Predictive analytics
+* Data science
+* Deep learning
+* Neural networks
+* Automated decision-making
+* Pattern recognition
+* Natural language processing (NLP)
+
+Let me know if you'd like me to expand on this list!
+2025-10-15 19:07:15,253 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 19:07:19,325 - INFO - ✅ Answer generated with confidence: 0.83
+2025-10-15 19:07:20,279 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 19:07:20,281 - INFO - Query processed: retrieval=0.756, synthesis=0.8, confidence=0.83
+2025-10-15 23:23:18,384 - INFO - Using OpenRouter (LLaMA 3-8B Instruct)
+2025-10-15 23:23:18,441 - INFO - 🚀 Starting Knowledge Base Search Engine...
+2025-10-15 23:23:18,441 - INFO - Initializing vector store...
+2025-10-15 23:23:18,514 - INFO - Loading embedding model...
+2025-10-15 23:23:18,525 - INFO - Use pytorch device_name: mps
+2025-10-15 23:23:18,525 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-15 23:23:22,320 - INFO - ✅ Vector store initialized successfully
+2025-10-15 23:23:22,320 - INFO - ✅ Vector store initialized successfully
+2025-10-15 23:26:21,509 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:26:21,526 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 23:26:21,785 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:26:54,857 - INFO - 🔍 Searching for: 'what is machine learning?' ... with filters: {}
+2025-10-15 23:26:54,990 - INFO - Found 2 relevant results
+2025-10-15 23:26:54,990 - INFO - 🧠 Generating answer for query: what is machine learning?
+2025-10-15 23:26:57,774 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:26:59,228 - INFO - 🔍 Query expanded: what is machine learning? → Here are a few related terms and synonyms for the query "what is machine learning?":
+
+* Related terms:
+	+ Artificial intelligence
+	+ Data science
+	+ Neural networks
+	+ Deep learning
+	+ Predictive analytics
+* Synonyms:
+	+ Machine intelligence
+	+ Automated learning
+	+ Intelligent systems
+	+ Pattern recognition
+	+ Algorithmic learning
+2025-10-15 23:27:00,664 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:27:04,967 - INFO - ✅ Answer generated with confidence: 0.83
+2025-10-15 23:27:06,636 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:27:06,731 - INFO - Query processed: retrieval=0.76, synthesis=0.8, confidence=0.83
+2025-10-15 23:32:40,681 - INFO - 🗑️ Deleted 96 chunks from LLMs.pdf
+2025-10-15 23:32:41,167 - INFO - 🗑️ Deleted 13 chunks from ML Research Paper.pdf
+2025-10-15 23:32:41,657 - INFO - 🗑️ Deleted 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:32:47,761 - INFO - Processing document: uploads/ML Research Paper.pdf
+2025-10-15 23:32:47,904 - INFO - Processed uploads/ML Research Paper.pdf: 13 chunks, 40916 characters
+2025-10-15 23:32:48,365 - INFO - ✅ Added 13 chunks from ML Research Paper.pdf
+2025-10-15 23:32:50,225 - INFO - Processing document: uploads/LLMs.pdf
+2025-10-15 23:32:50,735 - INFO - Processed uploads/LLMs.pdf: 96 chunks, 273100 characters
+2025-10-15 23:32:53,383 - INFO - ✅ Added 96 chunks from LLMs.pdf
+2025-10-15 23:32:53,385 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:32:53,388 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 23:32:53,500 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:33:07,556 - INFO - 🗑️ Deleted 13 chunks from ML Research Paper.pdf
+2025-10-15 23:33:08,161 - INFO - 🗑️ Deleted 96 chunks from LLMs.pdf
+2025-10-15 23:33:08,309 - INFO - 🗑️ Deleted 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:33:36,229 - INFO - Processing document: uploads/ML Research Paper.pdf
+2025-10-15 23:33:36,371 - INFO - Processed uploads/ML Research Paper.pdf: 13 chunks, 40916 characters
+2025-10-15 23:33:36,796 - INFO - ✅ Added 13 chunks from ML Research Paper.pdf
+2025-10-15 23:33:40,349 - INFO - Processing document: uploads/LLMs.pdf
+2025-10-15 23:33:40,867 - INFO - Processed uploads/LLMs.pdf: 96 chunks, 273100 characters
+2025-10-15 23:33:43,523 - INFO - ✅ Added 96 chunks from LLMs.pdf
+2025-10-15 23:33:43,905 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:33:43,915 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 23:33:44,053 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:35:44,787 - INFO - 🗑️ Deleted 13 chunks from ML Research Paper.pdf
+2025-10-15 23:35:45,216 - INFO - 🗑️ Deleted 96 chunks from LLMs.pdf
+2025-10-15 23:35:45,362 - INFO - 🗑️ Deleted 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:36:24,419 - INFO - Processing document: uploads/ML Research Paper.pdf
+2025-10-15 23:36:24,568 - INFO - Processed uploads/ML Research Paper.pdf: 13 chunks, 40916 characters
+2025-10-15 23:36:25,033 - INFO - ✅ Added 13 chunks from ML Research Paper.pdf
+2025-10-15 23:36:29,241 - INFO - Processing document: uploads/LLMs.pdf
+2025-10-15 23:36:29,759 - INFO - Processed uploads/LLMs.pdf: 96 chunks, 273100 characters
+2025-10-15 23:36:32,395 - INFO - ✅ Added 96 chunks from LLMs.pdf
+2025-10-15 23:36:36,343 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:36:36,350 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 23:36:36,495 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:37:28,270 - INFO - 🔍 Searching for: 'based on the documents provided tell me what is machine lear' ... with filters: None
+2025-10-15 23:37:28,411 - INFO - Found 5 relevant results
+2025-10-15 23:37:28,411 - INFO - 🧠 Generating answer for query: based on the documents provided tell me what is machine lear
+2025-10-15 23:37:30,024 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:37:31,538 - INFO - 🔍 Query expanded: based on the documents provided tell me what is machine learning → Here are a few related terms and synonyms for the query:
+
+* Related terms:
+	+ Artificial intelligence
+	+ Neural networks
+	+ Data analysis
+	+ Pattern recognition
+	+ Algorithmic learning
+* Synonyms:
+	+ Machine intelligence
+	+ Automated learning
+	+ Intelligent systems
+	+ Predictive analytics
+	+ Cognitive computing
+2025-10-15 23:37:33,074 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:37:34,652 - INFO - ✅ Answer generated with confidence: 0.78
+2025-10-15 23:37:35,766 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:37:35,898 - INFO - Query processed: retrieval=0.617, synthesis=0.8, confidence=0.78
+2025-10-15 23:37:58,218 - INFO - 🔍 Searching for: 'what is machine learning' ... with filters: None
+2025-10-15 23:37:58,331 - INFO - Found 5 relevant results
+2025-10-15 23:37:58,331 - INFO - 🧠 Generating answer for query: what is machine learning
+2025-10-15 23:38:00,029 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:38:00,790 - INFO - 🔍 Query expanded: what is machine learning → Here are a few related terms and synonyms for "what is machine learning":
+
+* AI (Artificial Intelligence)
+* Predictive analytics
+* Data science
+* Deep learning
+* Neural networks
+* Artificial neural networks
+* Predictive modeling
+* Automated decision-making
+* Cognitive computing
+2025-10-15 23:38:02,173 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:38:05,655 - INFO - ✅ Answer generated with confidence: 0.75
+2025-10-15 23:38:07,600 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:38:07,652 - INFO - Query processed: retrieval=0.585, synthesis=0.8, confidence=0.75
+2025-10-15 23:38:44,148 - INFO - 🗑️ Deleted 13 chunks from ML Research Paper.pdf
+2025-10-15 23:38:44,700 - INFO - 🗑️ Deleted 96 chunks from LLMs.pdf
+2025-10-15 23:38:44,990 - INFO - 🗑️ Deleted 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:38:48,989 - INFO - Processing document: uploads/ML Research Paper.pdf
+2025-10-15 23:38:49,134 - INFO - Processed uploads/ML Research Paper.pdf: 13 chunks, 40916 characters
+2025-10-15 23:38:49,604 - INFO - ✅ Added 13 chunks from ML Research Paper.pdf
+2025-10-15 23:38:52,973 - INFO - Processing document: uploads/LLMs.pdf
+2025-10-15 23:38:53,505 - INFO - Processed uploads/LLMs.pdf: 96 chunks, 273100 characters
+2025-10-15 23:38:56,516 - INFO - ✅ Added 96 chunks from LLMs.pdf
+2025-10-15 23:38:57,858 - INFO - Processing document: uploads/Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:38:57,868 - INFO - Processed uploads/Introduction to Machine Learning and Its Applications.docx: 1 chunks, 3519 characters
+2025-10-15 23:38:57,992 - INFO - ✅ Added 1 chunks from Introduction to Machine Learning and Its Applications.docx
+2025-10-15 23:39:27,507 - INFO - 🔍 Searching for: 'what is machine learning' ... with filters: None
+2025-10-15 23:39:27,646 - INFO - Found 5 relevant results
+2025-10-15 23:39:27,646 - INFO - 🧠 Generating answer for query: what is machine learning
+2025-10-15 23:39:29,933 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:39:31,891 - INFO - 🔍 Query expanded: what is machine learning → Here are a few related terms and synonyms for the query "what is machine learning":
+
+* Related terms:
+	+ Artificial intelligence
+	+ Deep learning
+	+ Neural networks
+	+ Data science
+	+ Predictive analytics
+* Synonyms:
+	+ ML
+	+ AI
+	+ Intelligent systems
+	+ Automated learning
+	+ Cognitive computing
+2025-10-15 23:39:33,501 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:39:38,473 - INFO - ✅ Answer generated with confidence: 0.75
+2025-10-15 23:39:40,085 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:39:40,100 - INFO - Query processed: retrieval=0.58, synthesis=0.8, confidence=0.75
+2025-10-15 23:40:32,834 - INFO - 🔍 Searching for: 'what are the types of machine learning' ... with filters: None
+2025-10-15 23:40:32,980 - INFO - Found 5 relevant results
+2025-10-15 23:40:32,980 - INFO - 🧠 Generating answer for query: what are the types of machine learning
+2025-10-15 23:40:34,498 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:40:36,402 - INFO - 🔍 Query expanded: what are the types of machine learning → Here are a few related terms and synonyms for the query "what are the types of machine learning":
+
+* Types of AI
+* Machine learning categories
+* Machine learning algorithms
+* Machine learning techniques
+* Machine learning subfields
+* Machine learning paradigms
+* Supervised, unsupervised, and reinforcement learning
+* Deep learning
+* Neural networks
+* Natural language processing
+* Computer
+2025-10-15 23:40:37,863 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:40:41,271 - INFO - ✅ Answer generated with confidence: 0.71
+2025-10-15 23:40:41,918 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 23:40:42,033 - INFO - Query processed: retrieval=0.536, synthesis=0.8, confidence=0.71
