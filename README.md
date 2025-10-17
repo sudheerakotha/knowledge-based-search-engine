@@ -225,9 +225,6 @@ knowledge-base-search/
 3. **Custom LLM**: Update `RAGEngine` with different models
 4. **UI Enhancements**: Modify React components in `frontend/src`
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Contributing
 
@@ -239,7 +236,7 @@ This project is licensed under the MIT License.
 
 ## Demo Video
 
-[Link to demo video will be added here]
+(https://drive.google.com/file/d/1vQ1vgOlNQimXYDGzyB9xw_aAKdEWT6-l/view?usp=sharing)
 
 ## Support
 
@@ -251,5 +248,6 @@ For issues and questions:
 ---
 
 Built with ❤️ using FastAPI, React, and OpenAI
+
 
 # knowledge-based-search-engine
