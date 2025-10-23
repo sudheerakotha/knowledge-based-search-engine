@@ -50,7 +50,7 @@ cd knowledge-based-search-engine
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-cp .env.example .env  # Set your OPENAI_API_KEY in .env
+cp .env.example .env  # Set your OPENROUTER_API_KEY in .env
 python run_backend.py  # Or: cd backend && python main.py
 ```
 Backend API runs at [http://localhost:8000](http://localhost:8000)
@@ -103,10 +103,5 @@ For detailed setup and technical details, see:
 - Frontend: verify backend connection and CORS
 - More: see [SETUP_GUIDE.md](./SETUP_GUIDE.md)
 
-## 📢 License
-
-[Specify license here, if available]
-
 ---
 
-**This README covers all essential aspects for onboarding developers and users. For deeper technical/design insights, refer to the included documentation files.**
