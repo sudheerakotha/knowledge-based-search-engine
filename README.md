@@ -81,7 +81,7 @@ Frontend runs at [http://localhost:3000](http://localhost:3000)
 
 Environment variables (`.env`):
 
-- `OPENAI_API_KEY`: Your OpenAI token
+- `OPENROUTER_API_KEY`: Your OpenAI token
 - `CHROMA_PERSIST_DIRECTORY`: Directory for vector database
 - Other customizable parameters: chunk size, LLM settings, thresholds, UI config
 
