@@ -38,7 +38,7 @@ pip install -r requirements.txt
 cp .env.example .env
 
 # Edit .env and add your OpenAI API key
-OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openai_api_key_here
 ```
 
 #### Run Backend
@@ -81,7 +81,7 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 # OpenAI API Configuration
-OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openai_api_key_here
 
 # Vector Store Configuration
 CHROMA_PERSIST_DIRECTORY=./chroma_db
@@ -306,3 +306,4 @@ knowledge-base-search/
 5. Submit a pull request
 
 This setup guide provides comprehensive instructions for getting the Knowledge Base Search Engine up and running in various environments.
+
