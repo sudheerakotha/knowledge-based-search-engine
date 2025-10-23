@@ -24,11 +24,7 @@ class RAGEngine:
                 )
                 self.model = "meta-llama/llama-3-8b-instruct"
                 logger.info("Using OpenRouter (LLaMA 3-8B Instruct)")
-            else:
-                self.client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-                self.model = os.getenv("LLM_MODEL", "gpt-3.5-turbo")
-                logger.info("Using OpenAI GPT model")
-
+            
             self.max_tokens = int(os.getenv("LLM_MAX_TOKENS", "1000"))
             self.temperature = float(os.getenv("LLM_TEMPERATURE", "0.7"))
             self.min_similarity_threshold = float(os.getenv("MIN_SIMILARITY_THRESHOLD", "0.3"))
@@ -249,3 +245,4 @@ Return only the numeric score.
         except Exception as e:
             logger.warning(f"Synthesis evaluation failed: {str(e)}")
             return 0.0
+
